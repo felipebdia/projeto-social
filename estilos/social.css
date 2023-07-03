@@ -16,13 +16,16 @@ img {
 }
 
 a {
+/*Display stuff*/
     display: block;
-    background-color: darkred;
-    color: white;
+/*Box model stuff*/
     padding: 20px;
-    text-align: center;
+    background-color: darkred;
+/*Typography stuff*/
     font-weight: bolder;
+    text-align: center;
     text-decoration: none;
+    color: white;
 }
 
 a:hover{

@@ -12,8 +12,9 @@
 }
 
 html, body {
-    height: 100vh;
+/*Box model stuff*/
     width: 100vw;
+    height: 100vh;
     background-color: black;
 }
 
@@ -29,14 +30,17 @@ main {
 }
 
 section#telefone {
+/*Positioning stuff*/
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    height: 627px;
+    top: 50%;
+/*Box model stuff*/
     width: 311px;
+    height: 627px;
     background-color: blue;
     background: url('../imagens/frame-iphone.png') no-repeat;
+/*Manipulations stuff*/
+    transform: translate(-50%, -50%);
 }
 
 iframe#tela {
